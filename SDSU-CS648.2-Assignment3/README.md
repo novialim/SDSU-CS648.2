@@ -1,3 +1,3 @@
-# SDSU-CS648.2-Assignment2
+# SDSU-CS648.2-Assignment3
 
-Create a single page application (SPA) using React, Express, and Node for a simple inventory management system.
+Create a single page application (SPA), establish a GraphQL schema and then build out both create and retrieve APIs for your inventory management application.
