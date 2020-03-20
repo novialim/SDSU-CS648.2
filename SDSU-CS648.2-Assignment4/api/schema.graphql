@@ -1,0 +1,35 @@
+scalar GraphQLDate
+
+type Product {
+  _id: ID!
+  id: Int!
+  Category: CategoryList!
+  Name: String!
+  Price: Float
+  Image: String
+}
+
+enum CategoryList {
+  Shirts
+  Jeans
+  Jackets
+  Sweaters
+  Accessories
+}
+
+input ProductInputs {
+  Category: CategoryList
+  Name: String!
+  Price: Float
+  Image: String
+}
+
+##### Top level declarations
+
+type Query {
+  productList: [Product!]!
+}
+
+type Mutation {
+  productAdd(product: ProductInputs!): Product!
+}
