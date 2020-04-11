@@ -1,0 +1,85 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #09182f;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  color: white;
+  text-align: center;
+}
+
+.avatar {
+  width: 300px;
+}
+
+.button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid #bfc0c0;
+  margin: 20px 20px 20px 20px;
+  color: #bfc0c0;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: #bfc0c0;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+#arrow-hover {
+  width: 15px;
+  height: 10px;
+  position: absolute;
+  transform: translateX(60px);
+  opacity: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.14, 0.59, 1, 1.01);
+  transition: all 0.15s cubic-bezier(0.14, 0.59, 1, 1.01);
+  margin: 0;
+  padding: 0 5px;
+}
+
+a#button-1:hover img {
+  width: 15px;
+  opacity: 1;
+  transform: translateX(50px);
+}
+
+/* Assignment 2 */
+
+.table-col {
+  width: 200px;
+}
+
+.formContainer {
+  width: 500px;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.formCol {
+  width: 300px;
+}
+
+input,
+select {
+  width: 200px;
+}
+
+.submitButton {
+  width: 125px;
+}
