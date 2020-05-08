@@ -50,7 +50,6 @@ async function counts() {
       },
     ])
     .toArray()
-    console.log("im here")
   return results[0]['count']
 }
 
